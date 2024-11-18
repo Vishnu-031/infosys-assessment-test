@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="js" href="test.js">
+</head>
+<body>
+  <div class="container">
+    <!-- Contact Form Section -->
+    <div class="form-section">
+      <h1>Let's work together</h1>
+      <p>
+        We're a full-service agency dedicated to helping you go from MVP to industry leader.
+        Let our team bring your goals to life.
+      </p>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="first-name">Full name*</label>
+          <input type="text" id="first-name" placeholder="First name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last name*</label>
+          <input type="text" id="last-name" placeholder="Last name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" placeholder="Email address" required>
+        </div>
+        <div class="form-group">
+          <label for="website">Website</label>
+          <input type="url" id="website" placeholder="Website">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number</label>
+          <div class="phone-container">
+            <select id="country-code">
+              <option value="US">US</option>
+              <option value="UK">UK</option>
+              <option value="IN">IN</option>
+            </select>
+            <input type="tel" id="phone" placeholder="(555) 000-0000">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="help">How can we help?</label>
+          <textarea id="help" placeholder="A brief summary of what you need help with, expected timelines, preferred communication method, etc." rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn">Continue</button>
+      </form>
+      <div class="step-indicator">Step 1 of 2</div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <div class="testimonial-section">
+      <blockquote>
+        "There's no doubt we wouldn't have achieved our level of success without Untitled UI, especially with our iOS app."
+      </blockquote>
+      <div class="testimonial-details">
+        <p><strong>Partner:</strong> Powersurge</p>
+        <p><strong>Year:</strong> August 2025</p>
+        <p><strong>Website:</strong> <a href="#">powersurge.com</a></p>
+        <p><strong>Investment:</strong> $1,200,000</p>
+        <p><strong>Services:</strong> Brand Strategy, Website Design, Marketing Assets, Pitch Deck Design, Webflow Development</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
